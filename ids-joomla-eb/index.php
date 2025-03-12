@@ -121,40 +121,6 @@ $logo_footer = $this->params->get('cor_footer') ? 'media/templates/site/govbr-ds
 
                     </div>
                     <div class="header-govlinks tema-<?php echo $this->params->get('tema'); ?>-main">
-
-                        <ul aria-label="Páginas do site">
-                            <li>
-                                <a href="https://www.gov.br/defesa/" class="header-sign h8 m-0 header-sign-border tema-<?php echo $this->params->get('tema'); ?>-main-header-border">Ministério da Defesa</a>
-                            </li>
-                            <li>
-                                <a href="https://www.gov.br/pt-br/orgaos-do-governo" target="_blank">
-                                    <span> Órgãos do Governo </span>
-                                </a>
-
-                            </li>
-
-                            <li>
-                                <a href="https://www.gov.br/acessoainformacao/pt-br" target="_blank">
-                                    <span class="text-truncate"> Acesso à Informação </span>
-                                </a>
-
-                            </li>
-
-
-                            <li>
-                                <a href="https://www4.planalto.gov.br/legislacao" target="_blank">
-                                    <span> Legislação </span>
-                                </a>
-
-                            </li>
-
-                            <li>
-                                <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital" target="_blank">
-                                    <span> Acessibilidade </span>
-                                </a>
-
-                            </li>
-                        </ul>
                     </div>
                     <div class="header-actions">
                         <?php if ($this->countModules('menuacesso')) : ?>
